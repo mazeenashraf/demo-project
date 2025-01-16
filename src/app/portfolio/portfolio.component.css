@@ -1,0 +1,74 @@
+.portfolio .container .items{
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.portfolio .container .inner{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:#1ABC9C;
+  transform: translatey(100%);
+  transition:all 0.1 ease-in ;
+}
+
+.portfolio .container .items:hover .inner{
+  transform: translatey(0px);
+}
+
+.ic{
+/* position: absolute; */
+/* top: 50%; */
+/* left: 50%; */
+display: flex;
+justify-content: center;
+align-items: center;
+/* min-height: 40vh; */
+}
+.ic i {
+  font-size: 100px;
+  color: white;
+  cursor: pointer;
+}
+.caption h2{
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(44, 62, 80);
+  text-align: center;
+  text-transform:uppercase ;
+  margin-bottom: 30px;
+}
+.star i{
+  position: relative;
+  right: 2px;
+}
+.st1{
+  width: 10%;
+  height: 20%;
+  background-color:rgb(44, 62, 80);
+  position: absolute;
+  left: 40%;
+  transform: translatex(-40%);
+}
+.st2{
+  width: 10%;
+  height: 20%;
+  background-color:rgb(44, 62, 80);
+  position: absolute;
+  right: 33%;
+  transform: translatex(-33%);
+}
+.mylst{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* background-color: red; */
+}

@@ -1,0 +1,37 @@
+*,*::after , *::before{
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+.footer{
+  background-color: #2C3D50;
+  
+}
+h3{
+  font-weight: 500;
+  font-size: 28px;
+}
+h3 , p {
+  color: white;
+}
+p{
+font-size: 16px;
+font-weight: 400;
+}
+section .container .icons i {
+  font-size: 20px;
+padding: 10px;
+border-radius: 50%;
+border: 1px solid white;
+text-align: center !important;
+transform: translatex(-70%);
+color: white;
+}
+.icons{
+  position: relative;
+  left: 5%;
+  top: 2%;
+}
+.end{
+  background-color: #1a252f;
+}

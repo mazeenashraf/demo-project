@@ -1,0 +1,29 @@
+
+.contact .contact-info h2{
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(44, 62, 80);
+  text-align: center;
+  text-transform: uppercase;
+}
+.contact .parent-lines .l1{
+  width:10%;
+  height: 15%;
+  background-color: rgb(44, 62, 80);
+  position: absolute;
+  left: 39%;
+  transform: translate(-39%);
+}
+.contact .parent-lines .l2{
+  width:10%;
+  height: 15%;
+  background-color: rgb(44, 62, 80);
+  position: absolute;
+  right: 38%;
+  transform: translate(38%);
+}
+.mybtn{
+position: absolute;
+left: 25%;
+bottom:  -15%;
+}

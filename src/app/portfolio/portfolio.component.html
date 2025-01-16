@@ -1,0 +1,51 @@
+<section class="portfolio p-3">
+  <div class="container p-4">
+    <div class="caption">
+      <h2>portfolio component</h2>
+      <div class="d-flex justify-content-center align-items-center position-relative mb-3 star">
+        <div class="st1"></div>
+        <i class="fa-solid fa-star"></i>
+        <div class="st2"></div>
+      </div>
+
+    </div>
+    <section class="row row-cols-1 row-cols-sm-1 row-cols-md-3 g-3 " data-bs-toggle="modal" data-bs-target="#exampleModal"  >
+      @for ( proudct of proudctimage; track $index) {
+        <div class="col position-relative">
+          <div class="items" (click)="showdata(proudct)">
+            <img class="card-img-top " [src]="proudct" alt="Title" />
+            <div class="inner">
+              <div class="ic h-100 gap-3">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col position-relative">
+          <div class="items">
+            <img class="card-img-top" [src]="proudct" alt="Title" />
+            <div class="inner">
+              <div class="ic h-100 gap-3">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      }
+      <!-- Button trigger modal -->
+
+
+  <div class="modal fade" id="exampleModal" tabindex="-1"  role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+    <div class="modal-dialog diaolg">
+      <div class="modal-content">
+
+        <div class="modal-body diaolg">
+          <img [src]="btnshow" class="w-100" alt="">
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>

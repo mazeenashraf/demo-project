@@ -1,0 +1,43 @@
+.mysec {
+  background-color: #1abc9c;
+}
+.mysec .container .home-compnent h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  position: relative;
+}
+.home-line{
+  position: relative;
+}
+.home-compnent .li{
+  width: 10%;
+  height: 15%;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translatex(-40%);
+
+}
+.home-compnent .li2{
+  width: 10%;
+  height: 15%;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  right: 40%;
+  transform: translatex(40%);
+
+}
+.icoo{
+  font-size: 15px;
+  color: white;
+}
+.home-compnent p{
+  margin-top: 40px;
+  color: white;
+
+
+}
